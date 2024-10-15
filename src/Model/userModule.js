@@ -1,4 +1,4 @@
-import { validateEmail } from "../Common/validations.js";
+import { validateEmail } from "../common/validations.js";
 import mongoose from "./index.js";
 
 const userSchema = new mongoose.Schema({
